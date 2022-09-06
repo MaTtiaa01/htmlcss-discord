@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body{
+    font-family: 'Montserrat', sans-serif;
+
+ }
+
+/* #region Utilities */
+
+.container{
+    width: 80%;
+    max-width:1200px;
+    margin: auto;
+}
+
+.container-fluid{
+    width: 100%;
+}
+
+.row{
+    display: flex;
+}
+
+.col-1{
+    width: calc((100% / 12) * 1);
+}
+
+.col-3{
+    width: calc((100% / 12) * 3);
+}
+
+.col-4{
+    width: calc((100% / 12) * 4);
+}
+
+.col-6{
+    width: calc((100% / 12) * 6);
+}
+
+.col-9{
+    width: calc((100% / 12) * 9);
+}
+/* #endregion utilities */
+
+/* #region debug */
+
+.debug header{
+    background-color: aqua;
+}
+
+.debug [class^="col-"]{
+    background-color: red;
+    border: 2px solid;
+}
+
+.debug .container-fluid{
+    background-color: blue;
+    border: 2px solid;
+}
+
+.debug .container{
+    background-color: blueviolet;
+
+}
+
+.debug p{
+    background-color: green;
+}
+
+/* #endregion debug */
+
+
+/* #region header */
+
+
+header{
+    position: absolute;
+    top: 0;
+   width: 100%;
+}
+header > .container{
+    padding: 1rem 0;
+    
+}
+header .col-3, header .col-6{
+    align-self: center;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    
+}
+
+header button{
+    background-color: white;
+    padding: 0.5rem  0.7rem;
+    border: 1px solid;
+    border-radius: 30px;
+}
+
+header a:hover{
+    font-weight: bolder;
+}
+
+/* #endregion header */
+
+/* #region main */
+main > .container-fluid{
+    padding: 1rem;
+}
+
+.jumbo{
+    text-align: center;
+    color: white;
+    background-image: url(./img/jumbo.png);
+    background-size: cover;
+    height: 380px;
+}
+
+.jumbo  p{
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.jumbo_text{
+    margin-top: 60px;
+}
+#mac_button{
+    background-color: white;
+    padding: 0.5rem  0.7rem;
+    border: 1px solid white;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+
+#browser_button{
+    background-color: black;
+    color: white;
+    padding: 0.5rem  0.7rem;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin-left: 10px;
+}
+
+
+/* #endregion main */
+
+footer{
+    background-color: black;
+}
