@@ -63,7 +63,11 @@ p{
 .text_center{
     text-align: center;
 }
-
+ /* .wave{
+    background-color: grey;
+    background-image: url(./img/wave.svg);
+    
+ } */
 
 
 /* #endregion utilities */
