@@ -10,6 +10,8 @@
 p{
     line-height: 30px;
 }
+
+
 /* #region Utilities */
 
 .container{
@@ -61,6 +63,9 @@ p{
 .text_center{
     text-align: center;
 }
+
+
+
 /* #endregion utilities */
 
 /* #region debug */
@@ -240,4 +245,8 @@ footer{
     border: 1px solid #7289DA;
     color: white;
     border-radius: 30px;
+}
+
+body button:hover{
+    font-size: 10px;
 }
