@@ -16,11 +16,12 @@ p{
     width: 80%;
     max-width:1200px;
     margin: auto;
+    
 }
 
 .container-fluid{
     width: 100%;
-    margin-top: 7rem;
+    
 }
 
 .row{
@@ -173,6 +174,9 @@ main > .container-fluid{
     font-size: 40px;
 }
 
+main .talk_space, main .easy_find, main .fandom, main .mobile_devices{
+    margin-top: 7rem;
+}
 .start_adventure{
     background-image: url(./img/stars.svg) ;
     font-size: 20px;
