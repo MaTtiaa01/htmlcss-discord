@@ -224,3 +224,20 @@ footer{
 .highlighted{
     color: #7289DA;
 }
+
+#upfoot{
+    border-bottom: 1px solid #7289DA;
+}
+
+.lower_footer{
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.register{
+    background-color: #7289DA;
+    padding: 0.5rem  0.7rem;
+    border: 1px solid #7289DA;
+    color: white;
+    border-radius: 30px;
+}
