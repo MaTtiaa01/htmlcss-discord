@@ -196,5 +196,31 @@ main .talk_space, main .easy_find, main .fandom, main .mobile_devices{
 /* #endregion main */
 
 footer{
-    background-color: black;
+    background-color: #23272A;
+    color: white;
+}
+ footer h2{
+    color: #7289DA;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 30px;
+ }
+
+ footer i{
+    margin-right: 1.5rem;
+    margin-top: 1rem;
+ }
+
+.footer_munu{
+    flex-direction: column;
+    margin-top: 2rem;
+    font-size: 15px;
+}
+
+.footer_munu span{
+    margin-bottom: 1.5rem;
+}
+
+.highlighted{
+    color: #7289DA;
 }
